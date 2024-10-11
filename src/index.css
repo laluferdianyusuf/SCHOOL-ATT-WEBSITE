@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Kanit";
+  src: url(../src/assets/Kanit-Regular.ttf);
+}
+
+* {
+  font-family: "Kanit";
+}
+
+.slick-track {
+  display: flex;
+  gap: 10px;
+}
+
+.css-1wy0on6 {
+  height: 30px !important;
+}
