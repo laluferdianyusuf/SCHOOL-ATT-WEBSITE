@@ -12,7 +12,6 @@ export const Button: React.FC<ButtonProps> = ({
   handle,
   style,
   disabled,
-  bgColor,
 }) => {
   return (
     <button onClick={handle} className={`${style}`} disabled={disabled}>
